@@ -1,3 +1,3 @@
-FROM scratch
-COPY /hello /hello
-CMD ["/hello"]
+FROM alpine
+
+RUN echo "Hello world!"
