@@ -30,6 +30,5 @@ jobs:
           context: ../../../
           file: ./Dockerfile
           platforms: linux/arm64
-          repository: klempy/helloworld
           push: true
-          tags: v1
+          tags: klempy/helloworld:v1
