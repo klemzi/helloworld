@@ -1,3 +1,3 @@
 FROM scratch
-COPY ./hello /
+COPY https://github.com/klemzi/helloworld/blob/main/hello /
 CMD ["/hello"]
