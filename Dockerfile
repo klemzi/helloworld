@@ -1,3 +1,3 @@
 FROM scratch
-COPY /repos/klemzi/helloworld/hello /hello
+COPY /hello /hello
 CMD ["/hello"]
