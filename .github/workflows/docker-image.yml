@@ -31,4 +31,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/arm64
           push: true
-          tags: klempy/helloworld:v1
+          tags: klempy/helloworld:latest
