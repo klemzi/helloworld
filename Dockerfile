@@ -1,3 +1,3 @@
 FROM scratch
-ADD https://github.com/klemzi/helloworld/blob/main/hello /
+ADD ./hello /
 CMD ["/hello"]
