@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN echo "Hello klem.ai!"
+RUN echo "Hello klem!"
