@@ -1,3 +1,3 @@
-FROM scratch
-ADD ./hello /
-CMD ["/hello"]
+FROM alpine
+
+RUN echo "Hello klem!"
