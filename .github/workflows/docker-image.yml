@@ -29,6 +29,5 @@ jobs:
         with:
           context: ../../../
           file: ./Dockerfile
-          platforms: linux/arm64
           push: true
           tags: klempy/helloworld:latest
